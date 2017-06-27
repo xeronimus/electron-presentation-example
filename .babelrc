@@ -1,0 +1,7 @@
+{
+  "presets": [
+    "preact",
+    "es2016"
+  ],
+  "retainLines": true
+}

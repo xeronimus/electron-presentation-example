@@ -1,0 +1,28 @@
+{
+  "name": "electron-presentation-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "electron": "electron main.js",
+    "build-apidemo": "babel app_apidemo/ --out-dir app_apidemo_build/ -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-preact": "^1.1.0",
+    "babel-register": "^6.24.1",
+    "electron": "^1.6.11",
+    "electron-builder": "^19.8.0",
+    "electron-devtools-installer": "^2.2.0",
+    "preact": "^8.1.0"
+  },
+  "dependencies": {
+    "electron-debug": "^1.2.0"
+  },
+  "false": {}
+}
